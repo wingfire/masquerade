@@ -6,7 +6,7 @@ gem 'ruby-yadis', :require => 'yadis'
 gem 'rake', '0.8.7'
 
 group :production do
-  gem 'mysql2'
+  gem 'mysql2', '< 0.3.0'
 end
 
 group :development do 
