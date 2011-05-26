@@ -3,6 +3,7 @@ source :rubygems
 gem 'rails', '~> 3.0.7'
 gem 'ruby-openid', :require => 'openid'
 gem 'ruby-yadis', :require => 'yadis'
+gem 'rake', '0.8.7'
 
 group :production do
   gem 'mysql2'
